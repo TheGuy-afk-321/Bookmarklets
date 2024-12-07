@@ -1,0 +1,1 @@
+javascript:(function(d){a="<a onclick=parentNode.parentNode.removeChild(parentNode)>CLOSE</a><br>";for(i=0x1f1e6;i<0x1F6FF;i++)if(i<0x1F200||i>0x1F2FF)a+=String.fromCodePoint(i)+" ";b=document.body;b.insertAdjacentHTML("beforeEnd","<div style=position:fixed;z-index:99999;top:0;left:0;width:100%;background:#def;text-align:center>"+a+"</div>");})()
